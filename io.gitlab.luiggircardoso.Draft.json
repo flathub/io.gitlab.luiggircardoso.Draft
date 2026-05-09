@@ -8,8 +8,7 @@
         "--share=ipc",
         "--socket=fallback-x11",
         "--device=dri",
-        "--socket=wayland",
-        "--filesystem=xdg-documents"
+        "--socket=wayland"
     ],
     "modules" : [
         {
@@ -20,8 +19,8 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.com/luiggircardoso/draft.git",
-                    "tag" : "v1.1.3",
-                    "commit" : "2c198e0c13159b81499fe9729328ac1aada7ef82"
+                    "tag" : "v1.2.0",
+                    "commit" : "540d516dbf918501529f333d3733cf89803463f0"
                 }
             ]
         }
