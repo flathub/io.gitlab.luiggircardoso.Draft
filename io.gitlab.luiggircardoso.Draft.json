@@ -19,8 +19,8 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.com/luiggircardoso/draft.git",
-                    "tag" : "v1.2.0",
-                    "commit" : "540d516dbf918501529f333d3733cf89803463f0"
+                    "tag" : "v1.2.1",
+                    "commit" : "2414ef496f9c1ab0051138d26f6266f1de14daca"
                 }
             ]
         }
