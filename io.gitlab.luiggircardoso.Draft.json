@@ -11,6 +11,20 @@
         "--socket=wayland"
     ],
     "modules" : [
+    	{
+            "name": "python3-pyenchant",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --no-index --no-build-isolation --find-links=. --prefix=/app pyenchant-3.3.0.tar.gz"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/36/ad/64925c937e41be75c7067c85757b3d45b148e9111187b37693269f583156/pyenchant-3.3.0.tar.gz",
+                    "sha256": "825288246b5debc9436f91967650974ef0d5636458502619e322c476f1283891"
+                }
+            ]
+        },
         {
             "name" : "draft",
             "builddir" : true,
@@ -19,8 +33,8 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.com/luiggircardoso/draft.git",
-                    "tag" : "v1.2.5",
-                    "commit" : "f67fbacc86c7d0b55ac069d39f228aab4842bf63"
+                    "tag" : "v1.3",
+                    "commit" : "b7841689648fbcdb94e933f96b84db38d88a83a6"
                 }
             ]
         }
