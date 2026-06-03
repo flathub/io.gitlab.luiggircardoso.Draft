@@ -23,8 +23,8 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.com/luiggircardoso/draft.git",
-                    "tag" : "v2.0.2",
-                    "commit" : "dffb557c5506c2b00004add6784fe07889cc33f1"
+                    "tag" : "v2.0.3",
+                    "commit" : "2fcdcfc66c6892da6bbca94bb415d06c6cd837e5"
                 }
             ],
             "config-opts" : [
