@@ -3,7 +3,6 @@
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "50",
     "sdk" : "org.gnome.Sdk",
-    "end-of-life": "This application is no longer maintained. This was so fun to develop, thank you for downloading!",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.node20",
         "org.freedesktop.Sdk.Extension.typescript"
